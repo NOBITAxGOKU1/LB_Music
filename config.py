@@ -8,15 +8,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("22793098", None))
+API_HASH = getenv("fe39d184efaebc3ee0f451f7d28a93f0", None)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("8189799114:AAEUX_4z6slihPPbyLQwIml6McdnAurW_9U", None)
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = getenv("mongodb+srv://sachin25u7:sachin25u7@cluster0.6kesm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
+MUSIC_BOT_NAME = getenv("KHUSHI_MUSIC_BOT", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_Nobita3")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Og_membars")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,21 +90,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://graph.org/file/096f6d88999670f46aa61-22b1e09efdcc4237d6.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
+    "PING_IMG_URL", "https://graph.org/file/096f6d88999670f46aa61-22b1e09efdcc4237d6.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/4310ea5f523520b2b765b.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/d339f390ec168c19879c6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ee0cd53ab73f08f4a3627.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/5f9fb5bba66021c782d96.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/affe0afec5c7ad63676a4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/3c446e8dee78ed0ca62ff.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+STATS_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+STREAM_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4015ac02f418cc2b2a392-34500566110ab25ef6.jpg"
 
 
 def time_to_seconds(time):
